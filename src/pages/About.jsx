@@ -10,7 +10,7 @@ const About = () => {
       <h1 className="text-2xl font-bold text-white pl-20 ml-20">About Me</h1>
       <div className="flex justify-center mt-10">
         <img
-          src="/src/images/me.jpg"
+          src="/images/me.jpg"
           alt="that's me!"
           className="h-96 w-96 justify-center border-l-4 border-[#0a5c36]"
         />
