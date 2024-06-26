@@ -14,7 +14,7 @@ const Project = (project) => {
           {project.technologies.map((tech, index) => (
             <div
               key={index}
-              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center px-3 mx-1"
+              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center px-3 mx-1 "
             >
               {tech}
             </div>

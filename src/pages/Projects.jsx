@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      picid: "/src/images/ecowell.jpg",
+      picid: "/images/ecowell.jpg",
       title: "EcoWell Africa",
       description: "A commercial wwebsite i made for an NGO..",
       technologies: ["HTML", "Tailwind ", "JS "],
@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      picid: "/src/images/xerotodo.jpg",
+      picid: "/images/xerotodo.jpg",
       title: "XeroTodo",
       description: "TodoList app developed by me to manage tasks.",
       technologies: ["React", "Tailwind", "Vite"],
@@ -21,10 +21,9 @@ const Projects = () => {
     },
     {
       id: 3,
-      picid: "/src/images/drugs.jpg",
+      picid: "/images/drugs.jpg",
       title: "DrugBooking",
-      description:
-        "A drug booking app for wholesalers patronizing Kinarpharma Pharmaceuticals",
+      description: "A drug booking app for wholesalers patronizing Kinarpharma Pharmaceuticals",
       technologies: ["PHP", "CSS", "JS", " HTML"],
       link: "github.com",
     },
