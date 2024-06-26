@@ -1,32 +1,32 @@
 const Project = (project) => {
   return (
-    <div className="border border-black rounded-xl w-80 mx-5 ">
-      
+    <div className="shadow-md w-80 mx-5 shadow-[#000000] transition-transform duration-500 hover:scale-110">
       <div className="w-full">
-        <img className="h-48 rounded-t-xl" src={project.picid} alt="Page UI" />
+        <img className="h-48 " src={project.picid} alt="Page UI" />
       </div>
       <div className="px-5 ">
-        <p className="font-bold pt-3">{project.title}</p>
+        <p className="font-bold pt-3 text-[#0a5c36]">{project.title}</p>
 
-        <p>{project.description}</p>
+        <p className="text-[#fffff0]">{project.description}</p>
 
-        <h6 className="font-semibold text-sm mt-2">STACK</h6>
+        <h6 className="font-semibold text-sm text-[#0a5c36] mt-2">STACK</h6>
         <p className="flex mt-2">
-            
           {project.technologies.map((tech, index) => (
             <div
               key={index}
-              className="border border-gray-300 text-sm rounded-2xl text-center px-3 mx-1"
+              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center px-3 mx-1"
             >
-            {tech}
+              {tech}
             </div>
           ))}
         </p>
 
         <br />
-        <a href={project.link}><button className="border px-10 py-2 rounded-2xl w-full border-black mb-5">
-          See Project
-        </button></a>
+        <a href={project.link}>
+          <button className=" px-10 py-2 bg-[#0a5c36] font-medium w-full mb-5 hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36]">
+            See Project
+          </button>
+        </a>
       </div>
     </div>
   );

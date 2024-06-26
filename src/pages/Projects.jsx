@@ -5,23 +5,23 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      picid: "",
-      title: "RTMS",
-      description: "A tenant management system developed by me..",
-      technologies: ["Python ", "Flask ", "CSS ", "JS "],
+      picid: "/src/images/ecowell.jpg",
+      title: "EcoWell Africa",
+      description: "A commercial wwebsite i made for an NGO..",
+      technologies: ["HTML", "Tailwind ", "JS "],
       link: "github.com",
     },
     {
       id: 2,
-      picid: "/src/images/todo.jpg",
+      picid: "/src/images/xerotodo.jpg",
       title: "XeroTodo",
-      description: "TodoList app developed by me",
+      description: "TodoList app developed by me to manage tasks.",
       technologies: ["React", "Tailwind", "Vite"],
       link: "github.com",
     },
     {
       id: 3,
-      picid: "/src/images/drugbooking.jpg",
+      picid: "/src/images/drugs.jpg",
       title: "DrugBooking",
       description:
         "A drug booking app for wholesalers patronizing Kinarpharma Pharmaceuticals",
@@ -31,8 +31,9 @@ const Projects = () => {
   ];
 
   return (
-    <div>
+    <div className="bg-[#121212] h-screen">
       <Header />
+      <h1 className="text-3xl font-bold text-white pl-20 ml-20">My Projects</h1>
       {/*Entire Page*/}
       <div className="flex ml-32 mt-10">
         {projects.map((project, index) => (
