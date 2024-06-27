@@ -10,7 +10,7 @@ const Contact = () => {
       <Header />
       {/* <h1 className="text-4xl font-bold text-white pl-20">Contact</h1> */}
       <div className=" mt-16 mx-5 md:flex md:space-x-1 md:justify-center">
-        <div className=" md:justify-center md:mt-14 md:space-y-5 md:px-10 ">
+        <div className=" md:justify-center pl-10 md:mt-14 md:space-y-5 md:px-10 ">
           <h2 className=" text-2xl md:text-4xl font-medium md:pt-20 text-[#0a5c36]">
             Let&apos;s chat.
             <br />
@@ -56,7 +56,7 @@ const Contact = () => {
           <p className="text-center text-[#0a5c36] font-medium text-2xl pt-5">
             Hit me Up!
           </p>
-          <form className="flex flex-col px-3 md:px-3 w-full md:mt-5">
+          <form className="flex flex-col px-1 md:px-3 w-full md:mt-5">
             <input
               type="text"
               placeholder="Name"
@@ -77,7 +77,7 @@ const Contact = () => {
               placeholder="Type your message"
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
-            <button className="mx-auto bg-[#0a5c36] mt-5 mb-10 py-2 font-medium w-32 border-[#0a5c36] text-lg shadow-xl shadow-[#000000]">
+            <button className="mx-auto bg-[#0a5c36] mt-5 mb-5 py-2 font-medium w-32 border-[#0a5c36] text-lg shadow-xl shadow-[#000000]">
               Send
             </button>
           </form>
