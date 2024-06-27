@@ -56,7 +56,7 @@ const Contact = () => {
           <p className="text-center text-[#0a5c36] font-medium text-2xl pt-5">
             Hit me Up!
           </p>
-          <form className="flex flex-col px-5 md:px-3 w-full md:mt-5">
+          <form className="flex flex-col px-3 md:px-3 w-full md:mt-5">
             <input
               type="text"
               placeholder="Name"
