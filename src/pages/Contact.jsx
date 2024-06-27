@@ -52,30 +52,30 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="md:mx-auto mb-10 shadow-lg shadow-[#000000] md:w-2/6 h-auto mt-14">
+        <div className="border md:mx-auto mb-10 shadow-lg shadow-[#000000] md:w-2/6 h-auto mt-14">
           <p className="text-center text-[#0a5c36] font-medium text-2xl pt-5">
             Hit me Up!
           </p>
-          <form className="flex flex-col w-full mt-5">
+          <form className="flex flex-col w-full md:mt-5">
             <input
               type="text"
               placeholder="Name"
-              className="border-0 bg-[#121212] outline-none border-[#0a5c36] border-b text-[#fffff0] mb-4 px-2 py-2 mx-10"
+              className="border-0 bg-[#121212] outline-none border-[#0a5c36] border-b text-[#fffff0] mb-4 px-2 py-2 md:mx-10 mx-5"
             />
             <input
               type="telephone"
               placeholder="Number"
-              className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 mx-10"
+              className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
             <input
               type="email"
               placeholder="Email"
-              className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 mx-10"
+              className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
             <input
               type="text"
               placeholder="Type your message"
-              className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 mx-10"
+              className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
             <button className="mx-auto bg-[#0a5c36] mt-5 mb-10 py-2 font-medium w-32 border-[#0a5c36] text-lg shadow-xl shadow-[#000000]">
               Send
