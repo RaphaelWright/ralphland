@@ -6,7 +6,7 @@ import { Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="w-screen border border-red-600 h-full md:h-screen bg-[#121212]">
+    <div className="w-screen h-full md:h-screen bg-[#121212]">
       <Header />
       {/* <h1 className="text-4xl font-bold text-white pl-20">Contact</h1> */}
       <div className=" mt-16 pl-10 mx-auto md:flex md:space-x-1 md:justify-center">
@@ -52,11 +52,11 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="border md:mx-auto mb-10 shadow-lg shadow-[#000000] md:w-2/6 h-auto mt-14">
+        <div className=" md:mx-auto mb-10 shadow-lg shadow-[#000000] md:w-2/6 h-auto mt-14">
           <p className="text-center text-[#0a5c36] font-medium text-2xl pt-5">
             Hit me Up!
           </p>
-          <form className="flex flex-col w-full md:mt-5">
+          <form className="flex flex-col px-5 md:px-3 w-full md:mt-5">
             <input
               type="text"
               placeholder="Name"
