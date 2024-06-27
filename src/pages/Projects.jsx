@@ -30,7 +30,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="bg-[#121212] w-full h-full md:h-screen">
+    <div className="bg-[#1b1b1b] w-full h-full md:h-screen">
       <Header />
       <h1 className="text-2xl font-bold mt-5 pl-16 pr-auto text-white md:pt-5 md:pl-20 md:ml-20 justify-center">My Projects</h1>
       {/*Entire Page*/}
