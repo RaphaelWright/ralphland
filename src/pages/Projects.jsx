@@ -30,11 +30,11 @@ const Projects = () => {
   ];
 
   return (
-    <div className="bg-[#121212] h-screen">
+    <div className="bg-[#121212] w-full h-full md:h-screen">
       <Header />
-      <h1 className="text-3xl font-bold text-white pl-20 ml-20">My Projects</h1>
+      <h1 className="text-2xl font-bold mt-5 pl-16 pr-auto text-white md:pt-5 md:pl-20 md:ml-20 justify-center">My Projects</h1>
       {/*Entire Page*/}
-      <div className="flex ml-32 mt-10">
+      <div className="space-y-10 mx-4 mt-5 md:flex md:ml-32 md:mt-10">
         {projects.map((project, index) => (
           <Project
             key={index}
@@ -43,6 +43,8 @@ const Projects = () => {
             technologies={project.technologies}
             link={project.link}
             picid={project.picid}
+
+            // className="my-10"
           />
         ))}
       </div>

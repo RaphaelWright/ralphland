@@ -1,15 +1,16 @@
 import { Outlet, Link } from "react-router-dom";
 import { Download } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <div className="">
-      <div className="flex py-6 ">
-        <h1 className="mr-auto text-2xl text-[#0a5c36] font-bold pl-24">
-          <Link to="/">WOODPECKR</Link>
+    <div className="w-screen bg-[#1b1b1b]">
+      <div className=" md:flex py-6 ">
+        <h1 className=" flex pl-10 md:mr-auto md:text-2xl text-[#0a5c36] font-bold md:pl-24">
+          <Link to="/">WOODPECKR</Link><Menu className="md:hidden ml-auto mr-10 "/>
         </h1>
 
-        <ul className=" flex px-5 ml-auto mr-20 space-x-10 text-[#fffff0] uppercase">
+        <ul className="hidden md:flex px-5 ml-auto mr-20 space-x-10 text-[#fffff0] uppercase :hidden">
           <li className="hover:text-[#0a5c36]">
             <Link to="/projects">Projects</Link>
           </li>
@@ -29,6 +30,7 @@ const Header = () => {
           </li>
         </ul>
 
+       
         <Outlet />
       </div>
     </div>
