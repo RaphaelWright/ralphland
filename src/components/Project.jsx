@@ -14,7 +14,7 @@ const Project = (project) => {
           {project.technologies.map((tech, index) => (
             <div
               key={index}
-              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center px-3 md:mx-1 "
+              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center px-3 mx-1 "
             >
               {tech}
             </div>
@@ -23,7 +23,7 @@ const Project = (project) => {
 
         <br />
         <a href={project.link}>
-          <button className=" mx-5 md:px-10 md:py-2 bg-[#0a5c36] font-medium md:w-full md:mb-5 hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36]">
+          <button className=" mx-auto px-10 py-2 bg-[#0a5c36] font-medium w-full mb-5 hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36]">
             See Project
           </button>
         </a>
