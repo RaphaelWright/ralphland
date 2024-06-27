@@ -4,17 +4,17 @@ const Project = (project) => {
       <div className="w-full">
         <img className="h-48 w-full " src={project.picid} alt="Page UI" />
       </div>
-      <div className="md:px-5 ">
-        <p className="font-bold md:pt-3 text-[#0a5c36]">{project.title}</p>
+      <div className="px-5 md:px-5 ">
+        <p className="font-bold pt-3 md:pt-3 text-[#0a5c36]">{project.title}</p>
 
         <p className="text-[#fffff0]">{project.description}</p>
 
-        <h6 className="font-semibold text-sm text-[#0a5c36] md:mt-2">STACK</h6>
-        <p className="flex md:mt-2">
+        <h6 className="font-semibold text-sm text-[#0a5c36] mt-2">STACK</h6>
+        <p className="flex mt-2">
           {project.technologies.map((tech, index) => (
             <div
               key={index}
-              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center md:px-3 md:mx-1 "
+              className="border border-[#0a5c36] text-sm rounded-xl text-[#fffff0] text-center px-3 md:mx-1 "
             >
               {tech}
             </div>

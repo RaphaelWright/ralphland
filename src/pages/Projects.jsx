@@ -34,7 +34,7 @@ const Projects = () => {
       <Header />
       <h1 className="text-2xl font-bold mt-5 pl-16 pr-auto text-white md:pt-5 md:pl-20 md:ml-20 justify-center">My Projects</h1>
       {/*Entire Page*/}
-      <div className="space-y-10 mx-4 mt-5 md:flex md:ml-32 md:mt-10">
+      <div className="space-y-10 mx-5 mt-5 md:flex md:ml-32 md:mt-10">
         {projects.map((project, index) => (
           <Project
             key={index}
