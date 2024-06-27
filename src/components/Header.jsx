@@ -4,7 +4,7 @@ import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <div className="w-screen bg-[#1b1b1b]">
+    <div className="w-screen bg-[#1b1b1b] shadow-md ">
       <div className=" md:flex py-6 ">
         <h1 className=" flex pl-10 md:mr-auto md:text-2xl text-[#0a5c36] font-bold md:pl-24">
           <Link to="/">WOODPECKR</Link><Menu className="md:hidden ml-auto mr-10 "/>
