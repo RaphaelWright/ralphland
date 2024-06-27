@@ -10,7 +10,7 @@ const Contact = () => {
       <Header />
       {/* <h1 className="text-4xl font-bold text-white pl-20">Contact</h1> */}
       <div className=" mt-16 mx-5 md:flex md:space-x-1 md:justify-center">
-        <div className=" md:justify-center pl-10 md:mt-14 md:space-y-5 md:px-10 ">
+        <div className=" md:justify-center pl-8 md:mt-14 md:space-y-5 md:px-10 ">
           <h2 className=" text-2xl md:text-4xl font-medium md:pt-20 text-[#0a5c36]">
             Let&apos;s chat.
             <br />
