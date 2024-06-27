@@ -6,20 +6,20 @@ import { Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="h-screen bg-[#121212]">
+    <div className="w-screen h-screen bg-[#121212]">
       <Header />
       {/* <h1 className="text-4xl font-bold text-white pl-20">Contact</h1> */}
-      <div className="flex space-x-1 justify-center">
-        <div className="justify-center mt-14 space-y-5 px-10 ">
-          <h2 className="text-4xl font-medium pt-20 text-[#0a5c36]">
+      <div className=" border mt-14 pl-20 mx-auto md:flex md:space-x-1 md:justify-center">
+        <div className="md:justify-center md:mt-14 md:space-y-5 md:px-10 ">
+          <h2 className=" text-2xl md:text-4xl font-medium md:pt-20 text-[#0a5c36]">
             Let&apos;s chat.
             <br />
             Tell me about your project.
           </h2>
-          <h3 className="text-white">
+          <h3 className="text-white pt-3">
             Let&apos;s create something together&#129311;
           </h3>
-          <div className="flex space-x-5">
+          <div className="flex space-x-5 pt-5">
             <a
               href="https://x.com/_r4ph4ell"
               target="_blank"
