@@ -58,7 +58,7 @@ const Contact = () => {
   return (
     <div className="w-screen h-full md:h-screen bg-[#121212]">
       <Header />
-      <div className="mt-16 mx-5 md:flex md:space-x-1 md:justify-center">
+      <div className="mt-16 mx-5 md:flex md:space-x-1 md:justify-center md:mt-5">
         <div className="md:justify-center pl-8 md:mt-14 md:space-y-5 md:px-10">
           <h2 className="text-2xl md:text-4xl font-medium md:pt-20 text-[#0a5c36]">
             Let&apos;s chat.
@@ -97,6 +97,7 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 bg-[#121212] outline-none border-[#0a5c36] border-b text-[#fffff0] mb-4 px-2 py-2 md:mx-10 mx-5"
             />
+            {errors.name && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.name}</p>}
 
             <input
               type="text"
@@ -106,6 +107,7 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
+            {errors.number && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.number}</p>}
 
             <input
               type="email"
@@ -115,6 +117,7 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
+            {errors.email && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.email}</p>}
 
             <input
               type="text"
@@ -124,6 +127,7 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
+            {errors.message && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.message}</p>}
 
             <button
               type="submit"
@@ -131,7 +135,7 @@ const Contact = () => {
             >
               Send
             </button>
-            {success && <p className="text-green-700 text-center">Sent!</p>}
+            {success && <p className="text-green-700 text-center">Message sent successfully!</p>}
           </form>
         </div>
       </div>
