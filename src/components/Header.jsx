@@ -28,10 +28,11 @@ const Header = () => {
             <Link to="/about">About</Link>
           </li>
           <li className="">
-            <button className="px-5 py-1 bg-[#0a5c36] font-medium text-black w-36 shadow-l shadow-[#000000] hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36] flex items-center justify-center gap-2">
+            <a href="https://drive.google.com/file/d/135AS2DtUlQAuptSykeTnqQgNhE551jui/view?usp=drivesdk"><button className="px-5 py-1 bg-[#0a5c36] font-medium text-black w-36 shadow-l shadow-[#000000] hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36] flex items-center justify-center gap-2">
               <Download size={16} strokeWidth={2} />
               Résumé
             </button>
+            </a>
           </li>
         </ul>
 
