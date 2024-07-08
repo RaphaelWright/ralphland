@@ -97,7 +97,6 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 bg-[#121212] outline-none border-[#0a5c36] border-b text-[#fffff0] mb-4 px-2 py-2 md:mx-10 mx-5"
             />
-            {errors.name && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.name}</p>}
 
             <input
               type="text"
@@ -107,7 +106,6 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
-            {errors.number && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.number}</p>}
 
             <input
               type="email"
@@ -117,7 +115,6 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
-            {errors.email && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.email}</p>}
 
             <input
               type="text"
@@ -127,7 +124,6 @@ const Contact = () => {
               onChange={handleChange}
               className="border-0 mb-4 bg-[#121212] outline-none border-b border-[#0a5c36] text-[#fffff0] px-2 py-2 md:mx-10 mx-5"
             />
-            {errors.message && <p className="text-red-500 text-sm md:mx-10 mx-5">{errors.message}</p>}
 
             <button
               type="submit"
@@ -135,7 +131,7 @@ const Contact = () => {
             >
               Send
             </button>
-            {success && <p className="text-green-500 text-center">Message sent successfully!</p>}
+            {success && <p className="text-green-700 text-center">Sent!</p>}
           </form>
         </div>
       </div>
