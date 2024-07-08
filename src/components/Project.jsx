@@ -23,7 +23,7 @@ const Project = (project) => {
 
         <br />
         <a href={project.link}>
-          <button className=" mx-auto px-10 py-2 bg-[#0a5c36] font-medium w-full mb-5 hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36]">
+          <button className=" mx-auto px-10 py-2 bg-[#0a5c36] font-medium w-full mb-5 md:mb-1 hover:border hover:bg-transparent hover:text-[#0a5c36] hover:font-medium hover:border-[#0a5c36]">
             See Project
           </button>
         </a>
